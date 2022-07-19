@@ -1,5 +1,5 @@
 <div class='chores' *ngFor = "let title of todoTitles">
-   <h3>Chores To Do Today</h3>
+   <h3>{{title}}</h3>
    <ul>
       <li *ngFor="let chore of chores">{{chore}}</li>
    </ul>
